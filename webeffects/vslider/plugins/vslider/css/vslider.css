@@ -1,0 +1,64 @@
+/* VSlider by Victor Kirov, 2013 */
+
+body {
+	margin-left : 0px;
+	margin-right : 0px;
+}
+
+#vslider {
+	width : 100%;
+	height : 300px; 
+	margin-left : 0px auto;
+	background-image:url('../../../images/vslider/1.jpg'); 
+	background-color:black;
+	overflow : hidden;
+	margin-left : 0px;
+	margin-right : 0px;	
+}
+
+#vslider_left_arrow {
+	width : 22px;
+	height : 22px; 
+	position : relative;
+	top : 10px;
+	left : 20px;
+	visibility : hidden;
+	cursor : pointer;
+	
+	border : 1px solid;
+	border-radius : 4px;
+	border-color : lightgray;
+	background-color : #E6E6E6;
+	background-image : url("../images/left.png");
+	cursor : pointer;
+	background-repeat : no-repeat;
+	background-position : 50% 50%; 
+}
+#vslider_left_arrow:hover {
+	background-image : url("../images/left_active.png");
+	border-color : gray;
+}
+
+#vslider_right_arrow {
+	width : 22px;
+	height : 22px;
+	position : relative;
+	top : 10px;
+	left : 20px;
+	visibility : hidden;
+	cursor : pointer;
+	
+	border : 1px solid;
+	border-radius : 4px;
+	border-color : lightgray;
+	background-color : #E6E6E6;
+	background-image : url("../images/right.png");
+	cursor : pointer;
+	background-repeat : no-repeat;
+	background-position : 50% 50%;	
+}
+
+#vslider_right_arrow:hover {
+	background-image : url("../images/right_active.png");
+	border-color : gray;
+}
